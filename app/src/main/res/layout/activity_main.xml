@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_iv_bg_banner"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        style="@style/BaseUI"
+        android:background="@drawable/card_background"
+        android:layout_marginTop="@dimen/empat_puluh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/main_tv_dashboard"
+        style="@style/TextHead"
+        android:text="@string/dashboard"
+        android:layout_marginStart="@dimen/dua_empat"
+        android:layout_marginTop="@dimen/empat_puluh"
+        app:layout_constraintStart_toStartOf="@+id/main_iv_bg_banner"
+        app:layout_constraintTop_toTopOf="@+id/main_iv_bg_banner" />
+
+    <TextView
+        android:id="@+id/main_tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_admin"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/dua_empat"
+        app:layout_constraintStart_toStartOf="@+id/main_iv_bg_banner"
+        app:layout_constraintTop_toBottomOf="@+id/main_tv_dashboard" />
+
+    <ImageView
+        android:id="@+id/main_iv_dash_admin"
+        style="@style/ImageUser"
+        android:src="@drawable/dash_admin"
+        android:layout_marginEnd="@dimen/dua_empat"
+        app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_banner"
+        app:layout_constraintEnd_toEndOf="@+id/main_iv_bg_banner"
+        app:layout_constraintTop_toTopOf="@+id/main_iv_bg_banner" />
+
+    <ImageView
+        android:id="@+id/main_iv_bg_user"
+        style="@style/BaseUI.BaseCard"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/empat_puluh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_iv_bg_banner"
+        />
+
+    <ImageView
+        android:id="@+id/main_iv_dash_user"
+        style="@style/ImageUser"
+        android:background="@drawable/dash_user"
+        android:layout_marginStart="@dimen/dua_empat"
+        app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_user"
+        app:layout_constraintStart_toStartOf="@+id/main_iv_bg_user"
+        app:layout_constraintTop_toTopOf="@+id/main_iv_bg_user"
+        />
+
+    <TextView
+        android:id="@+id/main_tv_dash_user"
+        style="@style/TextSubHead"
+        android:text="@string/data_user"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_user"
+        app:layout_constraintEnd_toEndOf="@+id/main_iv_bg_user"
+        app:layout_constraintStart_toEndOf="@+id/main_iv_dash_user"
+        app:layout_constraintTop_toTopOf="@+id/main_iv_bg_user" />
+
+    <ImageView
+        android:id="@+id/main_iv_bg_menu"
+        style="@style/BaseUI.BaseCard"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/enam_belas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_iv_bg_user"
+        />
+
+    <ImageView
+        android:id="@+id/main_iv_dash_menu"
+        style="@style/ImageUser"
+        android:src="@drawable/dash_food"
+        android:layout_marginStart="@dimen/dua_empat"
+        app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_menu"
+        app:layout_constraintStart_toStartOf="@+id/main_iv_bg_menu"
+        app:layout_constraintTop_toTopOf="@+id/main_iv_bg_menu" />
+
+    <TextView
+        android:id="@+id/main_tv_dash_menu"
+        style="@style/TextSubHead"
+        android:text="@string/menu"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_menu"
+        app:layout_constraintEnd_toEndOf="@+id/main_iv_bg_menu"
+        app:layout_constraintStart_toEndOf="@+id/main_iv_dash_menu"
+        app:layout_constraintTop_toTopOf="@+id/main_iv_bg_menu" />
+
+    <ImageView
+        android:id="@+id/main_iv_bg_meja"
+        style="@style/BaseUI.BaseCard"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/enam_belas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_iv_bg_menu" />
+
+    <ImageView
+        android:id="@+id/main_iv_dash_meja"
+        style="@style/ImageUser"
+        android:background="@drawable/dash_meja"
+        android:layout_marginStart="@dimen/dua_empat"
+        app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_meja"
+        app:layout_constraintStart_toStartOf="@+id/main_iv_bg_meja"
+        app:layout_constraintTop_toTopOf="@+id/main_iv_bg_meja" />
+
+    <TextView
+        android:id="@+id/main_tv_dash_meja"
+        style="@style/TextSubHead"
+        android:text="@string/meja"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_meja"
+        app:layout_constraintEnd_toEndOf="@+id/main_iv_bg_meja"
+        app:layout_constraintStart_toEndOf="@+id/main_iv_dash_meja"
+        app:layout_constraintTop_toTopOf="@+id/main_iv_bg_meja" />
+</androidx.constraintlayout.widget.ConstraintLayout>

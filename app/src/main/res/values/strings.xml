@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">KasirApp</string>
+    <string name="data_user">Data User</string>
+    <string name="menu">Menu</string>
+    <string name="meja">Meja</string>
+    <string name="makanan">Makanan</string>
+    <string name="minuman">Minuman</string>
+    <string name="no_meja">Nomor Meja</string>
+    <string name="add_user">Add User</string>
+    <string name="update_user">Update User</string>
+    <string name="nama_user">Nama User</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="jobdesk">Jobdesk</string>
+    <string name="add_menu">Add Menu</string>
+    <string name="nama_menu">Nama Menu</string>
+    <string name="jenis_menu">Jenis Menu</string>
+    <string name="deskripsi_menu">Deskripsi</string>
+    <string name="harga_menu">Harga</string>
+    <string name="save">Save</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="welcome_admin">Welcome, Admin</string>
+    <string name="admin">Admin </string>
+    <string name="update_menu">Update Menu</string>
+    <string name="title_activity_add_user">AddUser</string>
+    <string name="jenis_job">Jenis Job</string>
+    <string name="add_meja">Add Meja</string>
+    <string name="update_meja">Update Meja</string>
+    <string-array name="spinner_job">
+        <item>Pilih</item>
+        <item>Admin</item>
+        <item>Kasir</item>
+        <item>Management</item>
+    </string-array>
+
+    <string-array name="spinner_menu">
+        <item>Pilih</item>
+        <item>Makanan</item>
+        <item>Minuman</item>
+    </string-array>
+
+</resources>
