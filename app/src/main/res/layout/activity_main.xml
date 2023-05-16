@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:ignore="ContentDescription"
     tools:context=".MainActivity">
 
@@ -52,7 +52,7 @@
         android:id="@+id/main_iv_bg_user"
         style="@style/BaseUI.BaseCard"
         android:clickable="true"
-        android:layout_marginTop="@dimen/empat_puluh"
+        android:layout_marginTop="@dimen/lima_belas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_iv_bg_banner"
@@ -62,7 +62,7 @@
         android:id="@+id/main_iv_dash_user"
         style="@style/ImageUser"
         android:background="@drawable/dash_user"
-        android:layout_marginStart="@dimen/dua_empat"
+        android:layout_marginStart="@dimen/lima_belas"
         app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_user"
         app:layout_constraintStart_toStartOf="@+id/main_iv_bg_user"
         app:layout_constraintTop_toTopOf="@+id/main_iv_bg_user"
@@ -79,25 +79,29 @@
         app:layout_constraintTop_toTopOf="@+id/main_iv_bg_user" />
 
     <ImageView
+        android:orientation="horizontal"
         android:id="@+id/main_iv_bg_menu"
         style="@style/BaseUI.BaseCard"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="12dp"
         android:clickable="true"
-        android:layout_marginTop="@dimen/enam_belas"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_iv_bg_user"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/main_iv_bg_user" />
 
     <ImageView
         android:id="@+id/main_iv_dash_menu"
         style="@style/ImageUser"
         android:src="@drawable/dash_food"
-        android:layout_marginStart="@dimen/dua_empat"
+        android:layout_marginStart="@dimen/lima_belas"
         app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_menu"
         app:layout_constraintStart_toStartOf="@+id/main_iv_bg_menu"
         app:layout_constraintTop_toTopOf="@+id/main_iv_bg_menu" />
 
     <TextView
+
         android:id="@+id/main_tv_dash_menu"
         style="@style/TextSubHead"
         android:text="@string/menu"
@@ -111,18 +115,21 @@
     <ImageView
         android:id="@+id/main_iv_bg_meja"
         style="@style/BaseUI.BaseCard"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="12dp"
         android:clickable="true"
-        android:layout_marginTop="@dimen/enam_belas"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_iv_bg_menu" />
+        app:layout_constraintTop_toBottomOf="@+id/main_iv_bg_user" />
 
     <ImageView
         android:id="@+id/main_iv_dash_meja"
         style="@style/ImageUser"
         android:background="@drawable/dash_meja"
-        android:layout_marginStart="@dimen/dua_empat"
+        android:layout_marginStart="@dimen/lima_belas"
         app:layout_constraintBottom_toBottomOf="@+id/main_iv_bg_meja"
         app:layout_constraintStart_toStartOf="@+id/main_iv_bg_meja"
         app:layout_constraintTop_toTopOf="@+id/main_iv_bg_meja" />

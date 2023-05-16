@@ -19,7 +19,7 @@
     <string name="harga_menu">Harga</string>
     <string name="save">Save</string>
     <string name="dashboard">Dashboard</string>
-    <string name="welcome_admin">Welcome, Admin</string>
+    <string name="welcome_admin">Admin Dashboard</string>
     <string name="admin">Admin </string>
     <string name="update_menu">Update Menu</string>
     <string name="title_activity_add_user">AddUser</string>

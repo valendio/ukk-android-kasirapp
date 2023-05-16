@@ -77,7 +77,6 @@ class   AddUser : AppCompatActivity() {
             }
         }
     }
-
     private fun alert(){
         Toast.makeText(this, "Enter The Right Value", Toast.LENGTH_SHORT).show()
     }

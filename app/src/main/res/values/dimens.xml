@@ -17,5 +17,6 @@
     <dimen name="text_empat_puluh">40sp</dimen>
     <dimen name="empat_dua">42dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="lima_belas">15dp</dimen>
 
 </resources>
